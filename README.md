@@ -22,8 +22,9 @@ Draw lines on the image.
 Display the result.
 
 ## Program:
-```DEVELOPED BY: DEEPIKA S
-   REGISTER NUMBER: 212222230028
+```
+DEVELOPED BY: DEEPIKA S
+REGISTER NUMBER: 212222230028
 ```
 
 ### Read image and convert it to grayscale image
@@ -66,7 +67,8 @@ for line in lines:
     cv2.line(img_c,(x1,y1),(x2,y2),(255,0,0),3)
 ```
 ### Display the result
-```plt.imshow(img_c)
+```
+plt.imshow(img_c)
 plt.title("Result Image")
 plt.axis("off")
 plt.show()
